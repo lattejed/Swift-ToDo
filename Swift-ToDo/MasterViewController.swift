@@ -271,7 +271,6 @@ class MasterViewController : UITableViewController, NSFetchedResultsControllerDe
         fetchRequest.entity = entity
         fetchRequest.fetchBatchSize = 20
         
-        //let sortDescriptor = NSSortDescriptor(key: "createdAt", ascending: false)
         let sortDescriptor = NSSortDescriptor(key: "order", ascending: false)
         let sortDescriptors = [sortDescriptor]
         fetchRequest.sortDescriptors = [sortDescriptor]
