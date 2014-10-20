@@ -10,7 +10,6 @@
 		3406127E19F516D300B9690B /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3406127D19F516D300B9690B /* spark.png */; };
 		3406128019F5586400B9690B /* UIAlertView+ActionClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3406127F19F5586400B9690B /* UIAlertView+ActionClosure.swift */; };
 		3406128219F56ACB00B9690B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3406128119F56ACB00B9690B /* background.png */; };
-		342FD30919F4E5BF00B01181 /* UIActionSheet+ActionClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342FD30819F4E5BF00B01181 /* UIActionSheet+ActionClosure.swift */; };
 		34FF0F1519EE56B3001B6588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FF0F1419EE56B3001B6588 /* AppDelegate.swift */; };
 		34FF0F1819EE56B3001B6588 /* Swift_ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34FF0F1619EE56B3001B6588 /* Swift_ToDo.xcdatamodeld */; };
 		34FF0F1A19EE56B3001B6588 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FF0F1919EE56B3001B6588 /* MasterViewController.swift */; };
@@ -35,7 +34,6 @@
 		3406127D19F516D300B9690B /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		3406127F19F5586400B9690B /* UIAlertView+ActionClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertView+ActionClosure.swift"; sourceTree = "<group>"; };
 		3406128119F56ACB00B9690B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		342FD30819F4E5BF00B01181 /* UIActionSheet+ActionClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActionSheet+ActionClosure.swift"; sourceTree = "<group>"; };
 		34FF0F0F19EE56B3001B6588 /* Swift-ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-ToDo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FF0F1319EE56B3001B6588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34FF0F1419EE56B3001B6588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 				34FF0F1419EE56B3001B6588 /* AppDelegate.swift */,
 				34FF0F1919EE56B3001B6588 /* MasterViewController.swift */,
 				3406127F19F5586400B9690B /* UIAlertView+ActionClosure.swift */,
-				342FD30819F4E5BF00B01181 /* UIActionSheet+ActionClosure.swift */,
 				34FF0F3919EE603A001B6588 /* ToDo.swift */,
 				34FF0F1D19EE56B3001B6588 /* Main.storyboard */,
 				34FF0F2019EE56B3001B6588 /* Images.xcassets */,
@@ -238,7 +235,6 @@
 				34FF0F1819EE56B3001B6588 /* Swift_ToDo.xcdatamodeld in Sources */,
 				34FF0F1A19EE56B3001B6588 /* MasterViewController.swift in Sources */,
 				34FF0F3A19EE603A001B6588 /* ToDo.swift in Sources */,
-				342FD30919F4E5BF00B01181 /* UIActionSheet+ActionClosure.swift in Sources */,
 				3406128019F5586400B9690B /* UIAlertView+ActionClosure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

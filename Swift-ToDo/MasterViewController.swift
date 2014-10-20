@@ -30,10 +30,6 @@ class MasterViewController : UITableViewController, NSFetchedResultsControllerDe
         
         self.navigationController?.navigationBar.translucent = false
         UINavigationBar.appearance().barTintColor = blue.uiColor
-        //UINavigationBar.appearance().tintColor = blue.uiColor
-        //UINavigationBar.appearance().backgroundColor = blue.uiColor
-        //UINavigationBar.appearance().translucent = false // Throws an exception
-        
         tableView.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
     }
 
@@ -242,20 +238,6 @@ class MasterViewController : UITableViewController, NSFetchedResultsControllerDe
         isMovingItem = false
     }
     
-    /*
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            let context = self.fetchedResultsController.managedObjectContext
-            context.deleteObject(self.fetchedResultsController.objectAtIndexPath(indexPath) as NSManagedObject)
-            saveContext()
-        }
-    }
-    */
-    
-    //override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
-    //    cell.setEditing(false, animated: false) // fix iOS 8 bug
-    //}
-    
     func configureCell(cell: UITableViewCell, atIndexPath indexPath: NSIndexPath) {
         let todo = self.fetchedResultsController.objectAtIndexPath(indexPath) as ToDo
         
@@ -352,15 +334,5 @@ class MasterViewController : UITableViewController, NSFetchedResultsControllerDe
         }
         self.tableView.endUpdates()
     }
-
-    /*
-     // Implementing the above methods to update the table view in response to individual changes may have performance implications if a large number of changes are made simultaneously. If this proves to be an issue, you can instead just implement controllerDidChangeContent: which notifies the delegate that all section and object changes have been processed.
-     
-     func controllerDidChangeContent(controller: NSFetchedResultsController) {
-         // In the simplest, most efficient, case, reload the table view.
-         self.tableView.reloadData()
-     }
-     */
-
 }
 
