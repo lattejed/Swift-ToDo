@@ -1,5 +1,8 @@
 #Swift ToDo for iOS
 
+![Screencapture
+GIF](https://raw.githubusercontent.com/lattejed/Swift-ToDo/master/Swift-ToDo_screencast.gif)
+
 This is a quick demo project I put together to try out Swift on iOS. It's a
 simple ToDo app using Core Data and NSFetchedResultsController.
 
