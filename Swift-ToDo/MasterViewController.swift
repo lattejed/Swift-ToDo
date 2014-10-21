@@ -18,8 +18,8 @@ struct Color {
 
 class MasterViewController : UITableViewController, NSFetchedResultsControllerDelegate, UITextFieldDelegate {
     
-    let red = Color(r: 178.0, g: 34.0, b: 34.0, a: 1.0)
-    let blue = Color(r: 14.0, g: 95.0, b: 145.0, a: 1.0)
+    private let red = Color(r: 178.0, g: 34.0, b: 34.0, a: 1.0)
+    private let blue = Color(r: 14.0, g: 95.0, b: 145.0, a: 1.0)
     
     override func awakeFromNib() {
         super.awakeFromNib()

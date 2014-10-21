@@ -15,4 +15,5 @@ Concepts covered in this demo project:
 5. Adding closures to UIKit classes to avoid delegate methods 
 6. Working with iOS 7 / 8 iPhone 6 / 6+
 
-
+[You can read about this demo project in more depth
+here.](http://lattejed.com/a-simple-todo-app-in-swift)

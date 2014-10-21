@@ -14,22 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
-        
-        //let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("Swift_ToDo.sqlite")
-        //var maybeError : NSError?
-        //NSFileManager.defaultManager().removeItemAtURL(url, error: &maybeError);
-        //NSLog("Removing database file at \(url)")
-
-        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
-
         
         let navigationController = self.window!.rootViewController as UINavigationController
         let controller = navigationController.topViewController as MasterViewController
         controller.managedObjectContext = self.managedObjectContext
+
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
         
         return true
     }
